@@ -1,6 +1,8 @@
 
 
-A digitization of Thedosios of Alexandria's Grammatica with Alpheios Ready tools.
+A digitization of Theodosius of Alexandria's Grammatica with Alpheios Ready tools.
+
+Here's a link to the Wikipedia article about him: <https://en.wikipedia.org/wiki/Theodosius_of_Alexandria_(grammarian)>
 
 # Sources
 
