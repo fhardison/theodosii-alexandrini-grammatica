@@ -25,8 +25,8 @@ def call_command(command):
         return None
 
 homilies = []
-for f in SRC.glob('*.md'):
-    n = f.name.replace('.md', '.html')
+for f in SRC.glob('*.txt'):
+    n = f.name.replace('.txt', '.html')
     homilies.append(n)
     call_command(f"pandoc -f markdown -t html -o {TGT / Path(n)} {f} --template template.html --metadata title='{TITLE}'")
 
